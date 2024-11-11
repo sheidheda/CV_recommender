@@ -72,7 +72,7 @@ async def generate_summary(resume: UploadFile = File(...), job_description: str 
     provide the following in a JSON format:
     
     {{
-        "summary": ["3 different executive summaries tailored to fit the job description"],
+        "summary": ["3 different detailed executive summaries tailored to fit the job description"],
         "experience": ["outline relevant experiences tailored to the job description with kpis and good structure"],
         "skills": ["List the 10 most relevant skills for the job"]
     }}
